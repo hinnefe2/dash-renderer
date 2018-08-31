@@ -111,6 +111,6 @@ export function getReloadHash() {
     return apiThunk(
         '_reload-hash',
         'GET',
-        'reloadHash'
+        'reloadRequest'
     )
 }
